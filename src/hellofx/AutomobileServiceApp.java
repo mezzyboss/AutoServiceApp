@@ -10,7 +10,7 @@ public class AutomobileServiceApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/com/example/views/main.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("views/main.fxml"));
         primaryStage.setTitle("Automobile Service App");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
