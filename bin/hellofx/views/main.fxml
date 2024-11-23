@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.MainController" spacing="10" padding="10">
+    <Label text="Automobile Service Records" />
+    <TableView fx:id="table">
+        <columns>
+            <TableColumn fx:id="carModelColumn" text="Car Model" />
+            <TableColumn fx:id="serviceDateColumn" text="Service Date" />
+            <TableColumn fx:id="serviceDetailsColumn" text="Service Details" />
+        </columns>
+    </TableView>
+    <TextField fx:id="carModelInput" promptText="Car Model" />
+    <TextField fx:id="serviceDateInput" promptText="Service Date" />
+    <TextField fx:id="serviceDetailsInput" promptText="Service Details" />
+    <Button text="Add Record" onAction="#addRecord" />
+</VBox>

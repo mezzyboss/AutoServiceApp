@@ -1,0 +1,16 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx.fxml.jar",
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx.graphics.jar",
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx.swing.jar",
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx.base.jar",
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx-swt.jar",
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx.controls.jar",
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx.web.jar",
+        "c:\\Users\\cbeze\\OneDrive\\Documents\\JavaFX Projects\\HelloFX\\lib\\javafx.media.jar"
+    ]
+}
