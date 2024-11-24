@@ -8,7 +8,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="hellofx.controllers.MainController">
+<VBox spacing="5" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hellofx.controllers.MainController">
     <Label text="Automobile Service Records" />
     <TableView fx:id="table">
         <columns>
